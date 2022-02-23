@@ -11,7 +11,9 @@ Chess game application
   - Webpack?
   - micro front ends ? (not MVP)
   - data storage ? (not mvp)
-  -
+  - docker (not mvp)
+  - kubernets (not mvp)
+  - terraform (not mvp)
 
 - Pages
 

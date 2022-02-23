@@ -1,0 +1,26 @@
+- intall/update nodejs
+
+node -v
+npm -v
+
+- update npm
+npm install -g npm@8.5.1
+
+- yarn
+https://yarnpkg.com/
+
+- nx
+https://nx.dev/guides/lerna-and-nx
+https://blog.nrwl.io/lerna-yarn-nx-faster-build-times-better-dev-ergonomics-2ec28463d3a5
+
+
+- nextjs
+https://nextjs.org/
+
+- koajs
+https://koajs.com/
+
+npm i koa
+add file 'my-koa-app.js'
+
+run node: node my-koa-app.js
