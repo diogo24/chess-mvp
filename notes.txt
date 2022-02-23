@@ -21,6 +21,13 @@ https://nextjs.org/
 https://koajs.com/
 
 npm i koa
-add file 'my-koa-app.js'
+add file 'chess-koa-app.js'
 
-run node: node my-koa-app.js
+run node: node chess-koa-app.js
+
+
+- add react
+
+npx create-react-app chess-client
+cd chess-client
+npm start
