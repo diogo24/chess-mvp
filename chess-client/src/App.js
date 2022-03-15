@@ -4,6 +4,7 @@ import {Home} from "./home/home";
 import {Game} from "./game/game";
 import { render } from "react-dom";
 import { Router, Link } from '@reach/router';
+import 'bulma/css/bulma.min.css';
 
 function App() {
   return (
