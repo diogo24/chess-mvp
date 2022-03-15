@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+
+import {Menu} from "./menu/menu";
+import {Home} from "./home/home";
+import {Game} from "./game/game";
+import { render } from "react-dom";
+import { Router, Link } from '@reach/router';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+<>
+    <h1>Tutorial!</h1>
+    <nav>
+      <Link to="/">Home</Link>{" "}
+      <Link to="menu">Menu</Link>
+    </nav>
+    // under the `nav`
+  <Router>
+    <Home path="/" />
+    <Menu path="/menu" />
+    <Game path="/game" />
+  </Router>
+    </>
   );
 }
 
